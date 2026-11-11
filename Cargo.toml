@@ -1,0 +1,13 @@
+[package]
+name = "cargo-c1"
+version = "0.1.0"
+edition = "2024"
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+description = "A tiny crate that provides a simple command as an alternative to cargo clean."
+exclude = ["Justfile"]
+keywords = ["cargo", "clean", "cli"]
+license = "MIT"
+repository = "https://github.com/okkmnone/cargo-c1"
+
+[dependencies]
+rlitrs = "0.3.0"
